@@ -9,7 +9,7 @@
 在要排序的一组数中，假设前面(n-1) [n>=2] 个数已经是排好顺序的，现在要把第n个数插到前面的有序数中，使得这n个数也是排好顺序的。如此反复循环，直到全部排好顺序。
 ### （2）理解图：
 已知待序的一组记录的初始排列为：21, 25, 49, 25*, 16, 08   
-![](https://img-blog.csdn.net/20180409171355865?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hha2V5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![](https://img-blog.csdn.net/20180409171355865?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hha2V5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)  
 开始排序  
 ![](https://github.com/Leo-dongshu/Sorting-Algorithms/blob/master/images/20180409171414129.jpg?raw=true)
 ![](https://img-blog.csdn.net/2018040917143441?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hha2V5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
