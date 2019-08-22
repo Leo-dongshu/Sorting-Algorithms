@@ -2,8 +2,9 @@
 排序方法可以分为五种：插入排序、选择排序、交换排序、分配排序和归并排序。  
 在排序过程中，全部记录存放在内存，则称为内排序，如果排序过程中需要使用外存，则称为外排序。  
 首先来看一下八种排序之间的关系图：  
-![](https://img-blog.csdn.net/20180409170941764?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hha2V5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)  
-
+![](https://img-blog.csdn.net/20180409170941764?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hha2V5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)   
+## 时间复杂度度和空间复杂度比较：  
+![](https://github.com/Leo-dongshu/Sorting-Algorithms/blob/master/images/%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E5%92%8C%E7%A9%BA%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6.png?raw=true)  
 ## 1、 直接插入排序 
 ### （1）基本思想：
 在要排序的一组数中，假设前面(n-1) [n>=2] 个数已经是排好顺序的，现在要把第n个数插到前面的有序数中，使得这n个数也是排好顺序的。如此反复循环，直到全部排好顺序。
