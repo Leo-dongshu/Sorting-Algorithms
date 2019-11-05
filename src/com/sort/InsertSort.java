@@ -7,8 +7,8 @@ import com.sort.common.CreateArray;
  * 直接插入排序算法
  * 
  * x x x x x x x x x x x x x
- *     i
  *         j
+ *     i
  *         
  * j从1开始遍历，记录每轮要比较的数的起始位置；
  * 每轮i从j的位置出发，与前值比较，较小值往前置换，i记录本轮被排序数的位置。

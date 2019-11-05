@@ -28,7 +28,7 @@ public class MergeSort {
         int []temp = new int[arr.length];//在排序前，先建好一个长度等于原数组长度的临时数组，避免递归中频繁开辟空间
         mergeSort(arr,0,arr.length-1,temp);
     }
-    private static void mergeSort(int[] arr,int left,int right,int []temp){
+    private static void mergeSort(int[] arr,int left,int right,int []temp){ 
         if(left<right){
             int mid = (left+right)/2;
             mergeSort(arr,left,mid,temp);//左边归并排序，使得左子序列有序

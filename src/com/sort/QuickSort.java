@@ -29,8 +29,8 @@ public class QuickSort {
      * @param high 高位助手,用来找比基准位小的数
      */
     private static int[] quickSort(int[] arr, int low, int high) {
-        int start=low;//起始位置 0；
-        int end=high; //结束位置
+        int start=low;//起始位置 0
+        int end=high; //结束位置 arr.length-1
         int base=arr[low]; //基准数 ：一般是第一位
         int tempIndex=low; //找到的符合要求的位置：因为要把它的值付给基准数所在位置 所以要记录该位置 可以看做是助手移动到的位置
         while(low<high){
@@ -52,13 +52,13 @@ public class QuickSort {
             arr[high]=arr[low];
             tempIndex=low;//记录当前助手位置
 
-            //直到循环结束  -->低助手和高助手重叠 就把基准数赋到当前中轴重叠位置
+            //直到循环结束  -->低助手和高助手会重叠，基准数赋到当前重叠位置就是中轴位置
             arr[tempIndex]=base;
 
         }
-        //以上第一次排序结束  把数列分成了前后两个部分
-        //最后在对上面前后两个部分数列 分别递归
-        if(low-start>1){//前部分至少有两个数据
+        //以上第一次排序结束  把数列分成了左右两个部分
+        //最后在对上面左右两个部分数列分别递归
+        if(low-start>1){//左部分至少有两个数据
             quickSort(arr,0,low-1);
         }
         if(end-high>1){
